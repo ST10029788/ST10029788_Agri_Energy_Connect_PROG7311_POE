@@ -1,0 +1,30 @@
+Tables and Columns
+CREATE TABLE Farmer (
+    Farmer_ID nvarchar(100) PRIMARY KEY,
+    Farmer_Name nvarchar(100) NOT NULL,
+    Password nvarchar(100) NOT NULL
+);
+
+CREATE TABLE Product (
+    Product_ID int PRIMARY KEY,
+    Product_Name nvarchar(100) NOT NULL,
+    Product_Price int NOT NULL,
+    Product_Quantity int NOT NULL,
+    Product_Type nvarchar(100) NOT NULL,
+    Product_Date date NOT NULL,
+    Farmer_ID nvarchar(100) FOREIGN KEY REFERENCES Farmer(FarmerID)
+);
+
+CREATE TABLE Employee (
+    Employee_ID nvarchar(100) PRIMARY KEY,
+    Password nvarchar(100) NOT NULL
+);
+
+
+
+Relationships
+
+A farmer can have multiple products (one-to-many): Farmers table's FarmerId is referenced by the Products table's FarmerId foreign key.
+An employee is not related to the other two tables in the provided code.
+
+
