@@ -1,29 +1,18 @@
 # AgriEnergyConnect Database Prototype
 
 #### Sample data for testing
-Employee Account ID and Passwords:
+### Employee Account ID and Passwords:
 
 EMP001 password123
 
 EMP002 securepass
 
-EMP003 letmein
 
-EMP004 password4
+### Farmer Account ID and Password:
+000 testpass
 
-EMP005 password5
+002 testpass2
 
-
-#### Farmer Account ID and Passwords:
-FARM001 farmerpass
-
-FARM002 garden123
-
-FARM003 greenfarm
-
-FARM004 12345a
-
-FARM005 vgyferbhd
 
 
 # Using the App
