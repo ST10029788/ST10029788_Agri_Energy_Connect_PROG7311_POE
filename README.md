@@ -41,13 +41,21 @@ FARM005 vgyferbhd
 1. Created the relational Agri-Energy Connect database using Azure and Azure Data Studio.
 2. Populated with sample data as seen from table data screenshots and SQL script SQL_Agri_Energy.sql.
 3. It functions without adding the dependency, but to view the database for testing you can add as a dependency on Visual Studio:
+
    -Open Server Explorer and click Connect to database
+   
    -Server Name: agri-energy-connect-server.database.windows.net
+   
    -Use SQL authentication
+   
    -Username: aariya
+   
    -Password: B1ngus@rc
+   
    -Database name is AgriEnergyConnect
+   
    -Test connection and Save by pressing Ok
+   
    
 
 
