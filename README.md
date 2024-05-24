@@ -28,16 +28,27 @@ FARM005 vgyferbhd
 
 # Using the App
 1. Clone the repository or download the code files.
-  - GitHub Link: 
+  - GitHub Link: https://github.com/ST10029788/ST10029788_Agri_Energy_Connect_PROG7311_POE.git
 2. Open the solution in your preferred IDE.
    - Visual Studio 2022 Download Link: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
 4. Build the solution to restore dependencies and compile the code.
 5. Run the application.
+6. Once opened in your preferrered browser, the Home Screen will be displayed.
+7. Click on your preffered role from the top ribbon and log in to access functionality.
 
 ## Database
 
-1. Created the relational Agri-Energy Connect database using Azure.
-2. Populated with sample data as seen from table data screenshots.
+1. Created the relational Agri-Energy Connect database using Azure and Azure Data Studio.
+2. Populated with sample data as seen from table data screenshots and SQL script SQL_Agri_Energy.sql.
+3. It functions without adding the dependency, but to view the database for testing you can add as a dependency on Visual Studio:
+   -Open Server Explorer and click Connect to database
+   -Server Name: agri-energy-connect-server.database.windows.net
+   -Use SQL authentication
+   -Username: aariya
+   -Password: B1ngus@rc
+   -Database name is AgriEnergyConnect
+   -Test connection and Save by pressing Ok
+   
 
 
 ## User Role Definition and Authentication System
